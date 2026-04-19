@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "required": ["summary", "topics", "meta"],
+  "properties": {
+    "summary": { "type": "string" },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["subject", "q", "a"],
+        "properties": {
+          "subject": { "type": "string" },
+          "q": { "type": "string" },
+          "a": { "type": "string" },
+          "k": { "type": "array", "items": { "type": "string" } },
+          "ex": { "type": "string" },
+          "rel": { "type": "array", "items": { "type": "string" } },
+          "deps": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "coverage": { "type": "number" },
+        "depth": { "type": "number" }
+      }
+    }
+  }
+}

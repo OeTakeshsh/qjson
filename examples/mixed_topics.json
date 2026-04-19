@@ -1,0 +1,45 @@
+{
+  "summary": "Interdisciplinary compendium of fundamental concepts across science, humanities, and law.",
+  "topics": [
+    {
+      "subject": "Philosophy",
+      "q": "What is the difference between empiricism and rationalism?",
+      "a": "Rationalism places knowledge in reason; empiricism places it in experience.",
+      "k": ["Reason", "Experience", "Tabula rasa"],
+      "ex": "Descartes vs. Hume",
+      "rel": ["Epistemology"],
+      "deps": []
+    },
+    {
+      "subject": "Physics",
+      "q": "What is entropy?",
+      "a": "A measure of disorder and unusable energy in a system.",
+      "k": ["Disorder", "Second law", "Irreversibility"],
+      "ex": "A room that becomes messy over time",
+      "rel": ["Thermodynamics"],
+      "deps": ["Thermodynamics"]
+    },
+    {
+      "subject": "Programming",
+      "q": "What is recursion?",
+      "a": "A function calling itself to solve smaller instances of a problem.",
+      "k": ["Base case", "Stack"],
+      "ex": "Factorial calculation",
+      "rel": ["Algorithms"],
+      "deps": ["Programming logic"]
+    },
+    {
+      "subject": "History",
+      "q": "Why did the Roman Empire fall?",
+      "a": "Due to multiple causes: invasions, economic crisis, and political division.",
+      "k": ["476 AD", "Barbarians"],
+      "ex": "Sack of Rome",
+      "rel": ["Middle Ages"],
+      "deps": ["Ancient History"]
+    }
+  ],
+  "meta": {
+    "coverage": 0.9,
+    "depth": 0.75
+  }
+}

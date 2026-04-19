@@ -1,0 +1,36 @@
+{
+  "summary": "Fundamental concepts of modern philosophy and epistemology.",
+  "topics": [
+    {
+      "subject": "Philosophy",
+      "q": "What is a maxim in Kant?",
+      "a": "A subjective rule that guides an individual's actions.",
+      "k": ["Maxim", "Subjectivity", "Action"],
+      "ex": "Waking up early out of discipline",
+      "rel": ["Categorical imperative"],
+      "deps": []
+    },
+    {
+      "subject": "Philosophy",
+      "q": "What is the categorical imperative?",
+      "a": "A universal moral principle that tests whether a maxim can apply to everyone.",
+      "k": ["Universality", "Duty", "Morality"],
+      "ex": "Not lying even if it benefits you",
+      "rel": ["Deontological ethics"],
+      "deps": ["Maxim"]
+    },
+    {
+      "subject": "Philosophy",
+      "q": "Why does Kant reject lying?",
+      "a": "Because it cannot be universalized without contradiction.",
+      "k": ["Truth", "Universalization"],
+      "ex": "The murderer at the door case",
+      "rel": ["Categorical imperative"],
+      "deps": ["Categorical imperative"]
+    }
+  ],
+  "meta": {
+    "coverage": 0.85,
+    "depth": 0.8
+  }
+}
