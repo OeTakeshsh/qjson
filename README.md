@@ -30,9 +30,17 @@ Compact JSON format to convert text into structured knowledge (Q/A + relations +
 
 ## ⚙️ Usage
 
-1. Take text (chat, notes, docs)
-2. Apply the prompt (`qjson.prompt.json`)
-3. Get structured JSON
+Input (LLM text):
+"Explain recursion"
+
+Just copy qjson.prompt.json (or qsjon.systems_prompt.json)
+In the llm's entry -> Apply: **qjson.prompt.json**
+
+Output:
+{
+  "summary": "...",
+  "topics": [...]
+}
 
 ---
 
@@ -74,4 +82,5 @@ Compact JSON format to convert text into structured knowledge (Q/A + relations +
 ## 🧾 TL;DR
 
 Text → qjson → reusable knowledge
+
 
